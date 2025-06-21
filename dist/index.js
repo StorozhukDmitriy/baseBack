@@ -8,7 +8,7 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const products_router_1 = require("./routes/products-router");
 const addresses_router_1 = require("./routes/addresses-router");
 const app = (0, express_1.default)();
-const port = 5000;
+const port = 'https://baseback-beta.vercel.app/';
 //Что бы корректно передать данные, с клиента нужно получить json и обработать, для обработки используем bodyParser from 'body-parser и ниже него вызываем для app
 app.use(body_parser_1.default.json());
 //Подключаем как middleware

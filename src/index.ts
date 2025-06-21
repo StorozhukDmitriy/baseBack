@@ -4,7 +4,7 @@ import {productsRouter} from './routes/products-router';
 import {addressesRouter} from './routes/addresses-router';
 
 const app = express()
-const port = 5000
+const port = 'https://baseback-beta.vercel.app/'
 
 
 //Что бы корректно передать данные, с клиента нужно получить json и обработать, для обработки используем bodyParser from 'body-parser и ниже него вызываем для app
